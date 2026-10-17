@@ -1,8 +1,24 @@
 
-.vs/
-bin/
-obj/
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+
+
+Debug/
+Release/
+x64/
+x86/
 
 .vs/
-bin/
-obj/
+*.pdb
+*.idb
+*.ilk
+*.user
+
+
+.vscode/
+
+
+*.log
