@@ -43,6 +43,7 @@ int main() {
 int insertAfter(Position p, Position newP) {
 	newP->next = p->next;
 	p->next = newP;
+	return 0;
 }
 int insertBegin(Position head, char* ime, char* prezime, int godina) {
 	Position newPerson = (Position)malloc(sizeof(Person));
@@ -53,6 +54,7 @@ int insertBegin(Position head, char* ime, char* prezime, int godina) {
 	strcpy(newPerson->prezime, prezime);
 	newPerson->godina = godina;
 	insertAfter(head, newPerson);
+	return 0;
 }
 int printList(Position first) {
 	Position temp = first;
@@ -63,6 +65,7 @@ int printList(Position first) {
 	while (temp != NULL) {
 		printf("%s %s %d\n", temp->ime, temp->prezime, temp->godina);
 		temp = temp->next;
+		return 0;
 	}
 }
 int insertEnd(Position head, char* ime, char* prezime, int godina) {
@@ -77,6 +80,7 @@ int insertEnd(Position head, char* ime, char* prezime, int godina) {
 		temp = temp->next;
 	}
 		insertAfter(temp, newPerson);
+		return 0;
 	}
 Position findLName(char* lastN, Position first) {
 	Position temp = first;
