@@ -44,7 +44,7 @@ int main() {
         printf("2. Dodaj osobu na kraj\n");
         printf("3. Dodaj osobu iza odredenog prezimena\n");
         printf("4. Dodaj osobu ispred odredenog prezimena\n");
-        printf("5. Obrisi osobu (po prezimenu)\n");
+        printf("5. Obrisi osobu po prezimenu\n");
         printf("6. Sortiraj listu po prezimenu\n");
         printf("7. Ispisi listu\n");
         printf("0. Izlaz iz programa\n");
